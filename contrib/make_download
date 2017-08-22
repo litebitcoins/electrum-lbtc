@@ -27,7 +27,7 @@ files = {
 
 for k, n in files.items():
     path = "dist/%s"%n
-    link = "https://download.lbtc.info/%s"%n
+    link = "http://download.lbtc.info/%s"%n
     if not os.path.exists(path):
         os.system("wget -q %s -O %s" % (link, path))
     if not os.path.getsize(path):

@@ -60,7 +60,7 @@ def set_testnet():
     ADDRTYPE_P2WPKH = 3
     XPRV_HEADER = 0x04358394
     XPUB_HEADER = 0x043587cf
-    HEADERS_URL = "https://lbtc.info/testnet_headers"
+    HEADERS_URL = "http://lbtc.info/testnet_headers"
     GENESIS = "4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"
 
 def set_nolnet():
